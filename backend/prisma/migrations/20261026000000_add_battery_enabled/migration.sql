@@ -1,0 +1,2 @@
+ALTER TABLE "battery_inventory"
+ADD COLUMN IF NOT EXISTS "is_enabled" BOOLEAN NOT NULL DEFAULT TRUE;
